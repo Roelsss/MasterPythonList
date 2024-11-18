@@ -1,12 +1,13 @@
-# Lists storing restaurant data
-restaurant_ids = [1, 2, 3, 4, 5]
-restaurant_names = ["Vikings Luxury Buffet", "Antonio's Restaurant", "Mesa Filipino Moderne", "Manam Comfort Filipino", "Ramen Nagi"]
-restaurant_locations = ["Pasay City", "Tagaytay", "Makati City", "Quezon City", "Various Locations"]
-restaurant_cuisine_types = ["Buffet", "Fine Dining", "Filipino", "Filipino", "Japanese"]
-restaurant_established_years = [2011, 2002, 2009, 2013, 2013]
-restaurant_websites_or_contacts = ["www.vikings.ph", "www.antoniosrestaurant.ph", "www.mesa.ph", "www.manam.ph", "www.ramennagi.com.ph"]
 
-# Print restaurant data
-print("Restaurant Data:")
-for i in range(len(restaurant_ids)):
-    print(f"ID: {restaurant_ids[i]}, Name: {restaurant_names[i]}, Location: {restaurant_locations[i]}, Cuisine Type: {restaurant_cuisine_types[i]}, Established Year: {restaurant_established_years[i]}, Website/Contact: {restaurant_websites_or_contacts[i]}")
+# Lists storing university data
+university_ids = [1, 2, 3, 4, 5]
+university_names = ["University of the Philippines", "Ateneo de Manila University", "De La Salle University", "University of Santo Tomas", "Polytechnic University of the Philippines"]
+university_locations = ["Quezon City", "Quezon City", "Manila", "Manila", "Manila"]
+university_established_years = [1908, 1859, 1911, 1611, 1904]
+university_types = ["Public", "Private", "Private", "Private", "Public"]
+university_websites = ["www.up.edu.ph", "www.ateneo.edu", "www.dlsu.edu.ph", "www.ust.edu.ph", "www.pup.edu.ph"]
+
+# Print university data
+print("University Data:")
+for i in range(len(university_ids)):
+    print(f"ID: {university_ids[i]}, Name: {university_names[i]}, Location: {university_locations[i]}, Established Year: {university_established_years[i]}, Type: {university_types[i]}, Website: {university_websites[i]}")
